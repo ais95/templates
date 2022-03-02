@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+    .index-header .header-title-index{
+        font-size: 8vw;
+    }
+    .index-header .location-search{
+        width: 100%;
+        height: 120px;
+        margin: 0 auto;
+    }
+    .index-header .location-search .search-input{
+        width: 100%;
+        float: none;
+        height: 45px;
+        margin-bottom: 10px;
+    }
+    .index-header .location-search .search-btn{
+        width: 100%;
+        height: 45px;
+        margin-top: 5px;
+    }
+}

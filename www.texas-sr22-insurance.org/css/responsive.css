@@ -1,0 +1,551 @@
+/*.......................RESPONSIVE DESIGN ...............*/
+
+@media  screen and (max-width:768px){
+	
+	body{
+		padding:0;
+		background:#3DA4F8;
+	}
+
+	#container{
+		width:100%;
+		min-width:95%;
+		height:auto;
+		margin:0 auto;
+		
+	}
+	#container header{
+		width:100%;
+		height:120px;
+		height:auto;
+		background:transparent;
+	}
+	
+	#container header .left-side{
+		width:100%;
+		height:50px;
+		margin:0;
+		float:none;
+	}
+	#container header .left-side ul,h4,p a{
+		display:none;
+	}
+	#container header .left-side p{
+		width:100%;
+		margin:0;
+		text-align:center;
+		line-height:45px;
+		font-family:Trebuchet MS,Segoe UI;
+		font-size:24px;
+		color:#f0f0f0;
+		font-weight:800;
+	}
+	#container header .middle-side{
+		float:none;
+		width:100%;
+		margin:0;
+		height:auto;
+		padding:5px 0;
+		position:relative;
+		display:block;
+	}
+	#container header .middle-side img{
+		height:60px;
+		width:auto;
+		margin:0;
+		margin-left:40%;
+		
+	}
+	#container header .right-side{
+		float:none;
+		width:98%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+		background:transparent;
+	}
+	#container header .external-link{
+		display:none;
+	}
+	/*.................	this code containe slide navigation........................*/
+	header .right-side .menu-icon{
+		display:block;
+		max-width:85%;
+		margin:0 auto;
+		height:auto;
+		color:#f0f0f0;
+		border-radius:5px;
+		font-family:candara;
+		text-align:center;
+		font-size:25px;
+		font-weight:bolder;
+		padding:5px 0px;
+		letter-spacing:3px;
+		background:#359EF6;
+		cursor:pointer;
+		overflow:hidden;
+		box-sizing:border-box;
+	}
+
+	/*.................	this code containe slide navigation........................*/
+	
+	#container header .menu{
+		display:block;
+		width:100%;
+		margin:0;
+		height:0;
+		max-height:250px;
+		overflow:hidden;
+		transition:all .5s;
+	}
+	#container header .menu ul li{
+		display:block;
+		width:100%;
+		text-align:center;
+		background:#0761A7;
+		padding:0;
+		margin:0 auto;
+		color:#f0f0f0;
+		font-size:18px;
+		letter-spacing:2px;
+		font-weight:700;
+		border-bottom:2px solid#f0f0f0;
+	}
+
+		#toggle-btn:checked ~ .menu{
+		height:100%;
+		transition:all 1s;
+	}
+	
+	/*.............................e n d of header..........................*/
+		#container #overlay{
+			display:none;
+		}
+		#container #title1{
+			display:none;
+		}
+		
+	/*.............................THIS SECTION IS ONLY SHOWN FOR MOBILE DEVICE..........................*/
+		#main-content .responsive-section{
+			display:block;
+			width:100%;
+			height:auto;
+			padding:15px 0;
+			margin:0 auto;
+			background:transparent;
+			overflow:hidden;
+		}
+		.responsive-section .inset-div{
+			width:90%;
+			height:auto;
+			padding:0;
+			margin:15px auto;
+			overflow:hidden;
+		}
+		.phone-no, .address-map{
+			width:48%;
+			height:auto;
+			float:left;
+			background-color:#fff;
+			margin:0;
+			padding:5px 0;
+			border-radius:5px;
+			text-align:center;
+			letter-spacing:1px;
+			color:#008BB9;
+			font-family:candara;
+			font-weight:600;
+			box-sizing:border-box;
+			position:relative;
+			font-size:20px;
+			overflow:hidden;
+			text-decoration:none;
+		}
+		.address-map{
+			float:right;
+		}
+
+		.phone-no .fa,.address-map .fa{
+			margin-right:3%;
+			font-size:28px;
+		}
+		
+		.inset-div #flat-line,a{
+			width:100%;
+			background-color:#fff;
+			margin:0;
+			padding:7px 0;
+			border-radius:5px;
+			text-align:center;
+			letter-spacing:1px;
+			color:#008BB9;
+			font-family:candara;
+			font-weight:600;
+			box-sizing:border-box;
+			font-size:22px;
+			overflow:hidden;
+			text-decoration:none;
+		}
+		.inset-div #flat-line .fa{
+			margin-right:5%;
+		}
+		.inset-div table, #table2{
+			width:100%;
+			height:auto;
+		}
+
+		.inset-div table th{
+			width:100%;
+			height:auto;
+			background:#359FF7;
+			border-radius:5px;
+			color:#fff;
+			font-size:18px;
+			font-family:corbel,san-serif;
+			letter-spacing:2px;
+			padding:5px 0;
+		}
+		.inset-div #table2 {
+			background:#359FF7;
+			margin-top:10px;
+			border-radius:5px;
+		}
+		.inset-div #table2 td{
+			width:50%;
+			text-align:center;
+			color:#fff;
+			font-family:corbel,san-serif;
+			padding:10px 0;
+			border:none;
+			margin:0;
+		}
+		.inset-div #multi-quotes{
+			width:100%;
+			height:auto;
+		}
+		.inset-div #multi-quotes td{
+			background:#359FF7;
+			width:24%;
+			height:auto;
+			overflow:hidden;
+			padding:0;
+			border-radius:5px;
+		}
+		.inset-div #multi-quotes td i{
+			width:100%;
+			height:auto;
+			margin:0;
+			text-align:center;
+			padding:8px 0;
+			font-size:25px;
+			color:#f0f0f0;
+		}
+		.inset-div #multi-quotes td a{
+			margin-top:0;
+			width:100%;
+			height:auto;
+			min-height:40px;
+			display:block;
+			font-family:candara,san-serif;
+			text-align:center;
+			font-size:16px;
+			color:#f0f0f0;
+			background:transparent;
+			text-decoration:none;
+			line-height:15px;
+			font-weight:bolder;
+			font-style:italic;
+		}
+	.............................MOBILE DEVICE CONTENT IS NOW END..........................*/
+
+	
+		#main-content #left-content, #right-content{
+			width:100%;
+			float:none;
+		}
+		#main-content .instant-filings{
+			display:none;
+		}
+		#main-content #left-content,
+		#main-content #right-content{
+			float:none;
+			width:100%;
+			border:none;
+		}
+		
+		
+		
+		#main-content #left-content{
+			background:transparent;
+		}
+			#left-content .plaintext h3,
+			#left-content .plaintext h5,
+			#left-content .plaintext p,
+			#left-content .plaintext table td
+				{
+					color:#fff;
+				}
+			#left-content .plaintext h3,
+			#left-content .plaintext h5
+				{
+				font-family:san-serif;
+				font-size:20px;
+				width:100%;
+				text-align:center;
+				border-bottom:2px solid gray;
+				padding:5px 0;
+				}
+			#left-content .plaintext p,
+			#left-content .plaintext table td{
+					font-size:16px;
+					letter-spacing:1px;
+					line-height:22px;
+					font-family:candara,san-serif;
+			}
+			#left-content .plaintext table{
+				margin:0 auto;
+			}
+			
+			#left-content .plaintext table td{
+				border:1px solid #fff;
+				font-weight:border;
+				font-style:italic;
+				
+			}
+			#left-content .bottom-3{
+				padding:10px 0;
+				text-align:center;
+				height:auto;
+				background:#fff;
+				font-family:candara;
+				font-size:16px;
+				border-radius:5px;
+				margin-bottom:10px;
+			}
+			#left-content .bottom-3 a{
+				font-family:candara;
+				font-size:17px;
+				color:#0761A7;
+				line-height:25px;
+			}
+			#right-content .first-text,.second-text{
+				width:90%;
+				margin:0 auto;
+				height:auto;
+				padding:10px 5px;
+				background:transparent;
+			}
+			
+			#right-content .first-text h5,
+			#right-content .first-text p,
+			#right-content .first-text li
+				{
+					text-align:left;
+					color:#fff;
+					font-family:candara,san-serif;
+					font-size:15px;
+					letter-spacing:1px;
+				}
+				
+			#right-content .first-text h5{
+				font-size:18px;
+			}
+
+			#right-content .second-text p,
+			#right-content .second-text p a,
+			#right-content .second-text ul li a
+			
+			{
+					text-align:justify;
+					color:#fff;
+					font-family:candara,san-serif;
+					font-size:15px;
+					letter-spacing:1px;
+					background:transparent;
+			}
+			#right-content .second-text ul li{
+				text-align:center;
+				margin:0;
+				
+			}
+			#right-content .second-text img{
+				width:60%;
+				height:auto;
+			}
+					#right-content .more-link li a{
+						font-size: 16px;
+						background: none;
+						font-family:candara,san-serif;
+						color: #f0f0f0;	
+					}
+		/*.....................................STARTING ABOUT PAGE DESIGN...........................*/
+		
+	/*...................................../////////////////////////// ...........................*/
+	
+	#main-content .about-us table,
+	#main-content .about-us .details-sr22{
+		width:100%;
+		float:none;
+		border-bottom:1px solid #f0f0f0;
+	}
+	#main-content .about-us table td a{
+		background:transparent;
+		color:#f0f0f0;
+		font-size:17px;
+		font-family:corbel,candara,san-serif;
+	}
+	
+	#main-content .about-us .details-sr22 ul{
+		margin-bottom:10px;
+	}
+	#main-content .about-us .details-sr22 ul li{
+		display:inline;
+	}
+	#main-content .about-us .details-sr22 ul li a{
+		background:transparent;
+		line-height:20px;
+		color:#f0f0f0;
+	}
+			/*.....................................STARTING CONTACT PAGE DESIGN...........................*/
+		
+	/*...................................../////////////////////////// ...........................*/
+	
+	#main-content .contact-page{
+		width:95%;
+	}
+
+	.contact-page table td p{
+		width:100%;
+		float:none;
+		text-align:center;
+		padding:5px 0;
+		color:#000;
+	}
+		.contact-page table td input,textarea{
+			float:none;
+			width:100%;
+		}
+				/*.....................................STARTING PRIVACY PAGE DESIGN...........................*/
+		
+	/*...................................../////////////////////////// ...........................*/
+#main-content .privacy-page{
+	width:95%;
+}
+#main-content .privacy-page img{
+	display:none;
+}
+				/*.....................................STARTING SITE MAP PAGE DESIGN...........................*/
+		
+	#sitemap-page h2,
+	#sitemap-page h3,
+	#sitemap-page .sitemap-details,
+	#sitemap-page p{
+		width:100%;
+	}
+	.service-list1,
+	.service-list2{
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	.service-list1 li a,
+	.service-list2 li a{
+	  font-size:15px;
+	  background:transparent;
+	  color:#f0f0f0;
+	  font-family:corbel,calibri,candara;
+	  text-decoration:underline;
+	}
+		.service-list1 li a:active,
+		.service-list2 li a:active{
+			color:#f0f0f0;
+		}
+	
+/*.....................................STARTING Get an Instant Quote  DESIGN...........................*/	
+	#main-content .quotes-page{
+		width:100%;
+		height:auto;
+		margin:10px auto;
+		padding:10px 0;
+	}	
+		.quotes-page .quotes-form{
+		width:98%;
+		}
+/*.....................................STARTING quotes form  DESIGN...........................*/
+	.non-owner-quote table{
+		text-align:center;
+	}
+		.non-owner-quote table td .left-section,
+		.non-owner-quote table td .right-section{
+			float:none;
+			width:100%;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+		}
+		
+		.non-owner-quote table td .left-section text,
+		.non-owner-quote table td .right-section text{
+			width:100%;
+			height:auto;
+			float:none;
+			text-align:center;
+			color: #4C4C4C;
+			padding:5px 0;
+			margin:0;
+		}
+		
+		.non-owner-quote table td .left-section input[type="text"],	
+		.non-owner-quote table td .left-section input[type="number"],	
+		.non-owner-quote table td .left-section input[type="email"],	
+		.non-owner-quote table td .left-section input[type="date"],
+		.non-owner-quote table td .left-section select{
+			width:100%;
+			padding:4px 0;
+			border-radius:3px;
+			border:1px solid gray;
+			float:none;
+		}
+		
+		.non-owner-quote table td .right-section input[type="text"],	
+		.non-owner-quote table td .right-section input[type="number"],	
+		.non-owner-quote table td .right-section input[type="email"],	
+		.non-owner-quote table td .right-section input[type="date"],
+		.non-owner-quote table td .right-section select{
+			width:100%;
+			padding:4px 0;
+			border-radius:3px;
+			border:1px solid gray;
+			float:none;
+		}
+		.non-owner-quote table	#message text{
+			float:none;
+			width:100%;
+		}
+			.non-owner-quote table	#message textarea{
+				float:none;
+				width:100%;
+				height:120;
+				text-align:left;
+			}
+/*.....................................STARTING FOOTER AREA	 DESIGN...........................*/	
+		#container .bottom-area{
+		width:100%;
+		height:auto;
+		max-height: 320px;
+		overflow:hidden;
+	}
+	#container .bottom-area ul{
+		border-top:2px solid #f0f0f0;
+	}
+	#container .bottom-area ul li{
+		display:block;
+		margin:0;
+	}
+		#container .bottom-area ul li a{
+			background:transparent;
+			padding:0px;
+			margin:0;
+			line-height:30px;
+		}
+}

@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1024px){
+    .cart_fixed{
+        width: 240px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .creative-menu{
+        display: none;
+    }
+    .section-title{
+        font-size: 24px;
+    }
+    .section-title::first-letter{
+        font-size: 28px;
+    }
+    .sidebar-items .deals-sidebar li{
+        width: 30%;
+        margin: 5px 1%;
+    }
+    .sidebar-items .deals-sidebar li a .items-name-price{
+        min-height: 60px;
+        font-size: 12px;
+    }
+    .cart_fixed{
+        width: 320px;
+        left: 50%;
+        top: 15%;
+        margin-left: -160px;
+        position: fixed;
+        display: none;
+    }
+    /*
+    .checkout{
+        height: auto;
+        max-height: 380px;
+        padding: 5% 0;
+        overflow: hidden;
+        overflow-y: scroll;
+        
+    }
+    */
+    .m-cart{
+        display: block;
+    }
+    .area-clear{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #000000;
+        opacity: 0.6;
+        display: none;
+    }
+    .cart-close{
+        display: block;
+    }
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .checkout-cancel{
+        display: block;
+        width: 140px;
+        height: 38px;
+        line-height: 20px;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #ffffff;
+    }
+    .sidebar-items{
+        display: none;
+    }
+    .social-list li{
+        margin: 0;
+    }
+}

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Pizza House</title>
+    <link rel="icon" href="images/resources/favicon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/home-page-slider.css">
+    <link rel="stylesheet" type="text/css" href="vendors/font-awesome/css/font-awesome.min.css">
+    
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="">
+    
+    <script>
+        function OrderFormReset() {
+            document.getElementById("order-mdl").reset();
+        }
+    </script>
+    
+</head>
+    
+    
+    
+    
+    
+    
+    
+<!-- Starting home page --> 
+    
+<body>
+    
+<!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+    	<div class="navbar-header">
+    	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    		<span class="sr-only">Toggle navigation</span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+    	  </button>
+    	  <a class="navbar-brand" href="index.html"> <img src="images/resources/logo.png" height="45" alt="#"> </a>
+    	</div>
+    	<div id="navbar" class="collapse navbar-collapse">
+    	  <ul class="nav navbar-nav">
+    		<li> <a href="index.html"> Home </a> </li>
+              
+            <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  Order Products <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li> <a href="pizza.html"> Pizza </a> </li>
+                  <li> <a href="calzone.html"> Calzone </a> </li>
+                  <li> <a href="sandwiches-subs-gyros.html"> Sandwich, Subs &amp; Gyros </a> </li>
+                  <li> <a href="pastas.html"> Pastas </a> </li>
+                  <li> <a href="salad-sides.html"> Salad &amp; Sides </a> </li>
+                  <li> <a href="drinks.html"> Drinks </a> </li>
+                </ul>
+            </li>
+            <li> <a href="store-location.html"> Store Location </a> </li>
+            <li> <a href="about-pizzahouse.html"> About Us </a> </li>
+    	  </ul>
+
+            <ul class="nav navbar-nav navbar-right phone-no-area">
+                <li> <a href="tel:01234"> Call &amp; Order <br/> <span>+880 123-456789</span>  </a> </li>
+            </ul>
+    	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- Creative Items Menu -->
+    
+    <div class="container">
+        <ul class="creative-menu">
+            <li class="menu-list-box">
+                <a href="pizza.html"> <img class="img-responsive" src="images/resources/icons/pizza.png" alt="#"> <span>Pizza</span> </a> 
+            </li>
+            <li class="menu-list-box">
+                <a href="calzone.html"> <img class="img-responsive" src="images/resources/icons/calzone.png" alt="#"> <span>Calzone</span> </a> 
+            </li>
+            <li class="menu-list-box">
+                <a href="sandwiches-subs-gyros.html"> <img class="img-responsive" src="images/resources/icons/burger.png" alt="#"> <span>Sandwich </span> </a> 
+            </li>  
+            <li class="menu-list-box">
+                <a href="pastas.html"> <img class="img-responsive" src="images/resources/icons/pastas.png" alt="#"> <span>Pastas</span> </a> 
+            </li> 
+            <li class="menu-list-box">
+                <a href="salad-sides.html"> <img class="img-responsive" src="images/resources/icons/salad.png" alt="#"> <span>Salad</span> </a> 
+            </li>
+            <li class="menu-list-box">
+                <a class="active" href="drinks.html"> <img class="img-responsive" src="images/resources/icons/wine-glass.png" alt="#"> <span>Drinks</span> </a> 
+            </li>
+        </ul>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- Products Order Body -->
+
+    
+    <div class="container">
+        
+    <!-- products search/Filter area -->
+        <div class="row" style="border-bottom: 1px solid #eee;margin: 15px auto;">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                <p class="search-title">Find Products </p>
+            </div>
+            
+            <div class="col-md-10 col-sm-12 col-xs-12">
+                
+            <!-- Products Search Form -->
+                <form class="item-search-area">
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <select class="form-control">
+                          <option value="0" selected> Type </option>
+                          <option value="meet"> Meet </option>
+                          <option value="spicy"> Spicy </option>
+                          <option value="veggie"> Veggie </option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <div class="form-group">
+                            <input type="number" class="form-control" min="1" id="price" placeholder="Price">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-8 col-xs-8">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="text" placeholder="Type To Search">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-4">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-submit" style="width: 100%;">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+    <!-- Breadcrumb -->
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Drinks</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+    <!-- Products Lists Area -->
+        <div class="row">
+            
+        <!-- Sidebar Area -->
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                
+            <!-- Sidebar menu -->
+                <div class="sidebar-items">
+                    <ul class="items-list">
+                        <li> <a href="#"> Pizza </a> </li>
+                        <li> <a href="calzone.html"> Calzone </a> </li>
+                        <li> <a href="sandwiches-subs-gyros.html"> Sandwiches </a> </li>
+                        <li> <a href="pastas.html"> Pastas </a> </li>
+                        <li> <a href="salad-sides.html"> Salad &amp; Sides </a> </li>
+                        <li> <a class="active" href="drinks.html"> Drinks </a> </li>
+                    </ul>
+                </div>
+                
+            
+                
+            <!-- Best Deals -->
+                <div class="sidebar-items">
+                    <h4 class="sidebar-title">Best Deals</h4>
+                    <ul class="deals-sidebar">
+                        <li>
+                            <a href="order-option.html">
+                                <img src="images/pizzahouse-items/Calzone/regular-combo/1.jpg" class="img-responsive" alt="#">
+                                <p class="items-name-price"> Combo Regular <br/><span>$12.0</span> </p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="order-option.html">
+                                <img src="images/pizzahouse-items/Pizza/caprese/1.jpg" class="img-responsive" alt="#">
+                                <p class="items-name-price"> Caprese <br/><span>$19.00</span> </p> 
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="order-option.html">
+                                <img src="images/pizzahouse-items/Salad/bread-sticks/1.jpg" class="img-responsive" alt="#">
+                                <p class="items-name-price">Bread Sticks <br/><span>$9.0</span> </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <!-- Products Lists -->
+            <div class="col-md-7 col-sm-12 col-xs-12">
+                <div class="row">
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="products-lists">
+                            <img class="img-responsive" src="images/pizzahouse-items/Drinks/16-oz-bottle/1.jpg" alt="#">
+                            <p class="priducts-price">$1.79</p>
+                            <p class="priducts-name">16 oz bottle </p>
+                            <a href="#" class="order-button" data-toggle="modal" data-target="#myModal"> Order Now </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="products-lists">
+                            <img class="img-responsive" src="images/pizzahouse-items/Drinks/2-liter-drinks/1.jpg" alt="#">
+                            <p class="priducts-price">$2.75</p>
+                            <p class="priducts-name">2 liter drinks</p>
+                            <a href="#" class="order-button" data-toggle="modal" data-target="#myModal"> Order Now </a>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="products-lists">
+                            <img class="img-responsive" src="images/pizzahouse-items/Drinks/bottle-juice/1.jpg" alt="#">
+                            <p class="priducts-price">$1.99</p>
+                            <p class="priducts-name"> bottle juice </p>
+                            <a href="#" class="order-button" data-toggle="modal" data-target="#myModal"> Order Now </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="products-lists">
+                            <img class="img-responsive" src="images/pizzahouse-items/Drinks/bottle-water/1.jpg" alt="#">
+                            <p class="priducts-price">$0.99</p>
+                            <p class="priducts-name"> bottle water </p>
+                            <a href="#" class="order-button" data-toggle="modal" data-target="#myModal"> Order Now </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="products-lists">
+                            <img class="img-responsive" src="images/pizzahouse-items/Drinks/can-pop/1.jpg" alt="#">
+                            <p class="priducts-price">$0.99</p>
+                            <p class="priducts-name"> can pop </p>
+                            <a href="#" class="order-button" data-toggle="modal" data-target="#myModal"> Order Now </a>
+                        </div>
+                    </div> 
+
+
+                    
+                </div>
+            </div>
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+        <!-- Items Order Option in Modal -->
+            
+                <div class="modal fade" id="myModal" role="dialog" style="z-index: 999999;">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content order-option-modal">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Items name</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="post" id="order-mdl">
+                                    <h4 class="unit-price">Price $19.0</h4>
+                                    
+                                    <label for="inst">Add Instruction</label>
+                                    <textarea class="form-control" rows="5" id="inst" placeholder="Describe Message"></textarea>
+                                    
+                                    <label for="qnt">Quantity</label>
+                                    <input class="form-control" type="number" min="1" value="1" style="max-width: 120px;">
+                                    
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="navigation-button">Add To order</a>
+                                <a href="#" onclick="OrderFormReset()" class="navigation-button" data-dismiss="modal" style="background-color: #999999;">Cancel</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            
+            
+   
+            
+            
+            
+            
+            
+            
+            
+            
+        <!-- Add To Cart Area -->
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="cart_fixed" id="item-cart">
+                    <!-- Cart header -->
+                    
+                    <h5 class="cart_header"> YOUR ORDER </h5>
+
+                    <!-- Cart Items name -->
+                    <h5 class="item_name"> 3 Items Added! </h5>
+
+                    
+                    
+                <!-- Check Out Form -->
+                    <div class="checkout">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#menu0"> <i class="fa fa-shopping-bag"></i><br/> TakeOut </a></li>
+                            <li><a data-toggle="tab" href="#menu1"> <i class="fa fa-taxi"></i> <br/> Delivery </a></li>
+                            <li><a data-toggle="tab" href="#menu2"> <i class="fa fa-cutlery"></i> <br/> Dine-In </a></li>
+                        </ul>
+
+
+                        <div class="tab-content">
+                            <div id="menu0" class="tab-pane fade in active">
+                                <table class="table add-list">
+                                    
+                                    <tr class="added-item">
+                                        <td class="added-item-delete"> <button class="btn" data-toggle="tooltip" title="Delete Item"><i class="fa fa-close"></i></button> </td>
+                                        <td class="added-item-name">
+                                            <a href="#" data-toggle="modal" data-target="#myModal">Fresh Cut French Fries with Cheese</a> 
+                                        </td>
+                                        <td class="added-item-price"> $19.0 </td>
+                                    </tr> 
+                                    
+                                    <tr class="added-item">
+                                        <td class="added-item-delete"> <button class="btn" data-toggle="tooltip" title="Delete Item"><i class="fa fa-close" ></i></button> </td>
+                                        <td class="added-item-name">
+                                            <a href="#" data-toggle="modal" data-target="#myModal">Fresh Cut French Fries with Cheese</a> 
+                                        </td>
+                                        <td class="added-item-price"> $19.0 </td>
+                                    </tr>
+
+                                    
+                                    <tr>
+                                        <td colspan="2"> Sub Total </td>
+                                        <td> $0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"> Tax </td>
+                                        <td> $0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2"> Total </th>
+                                        <th> $0.00 </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" class="btn-area">
+                                            <a href="#" class="checkout-btn"> Checkout <i class="fa fa-caret-right"></i> </a> 
+                                            <br/>
+                                            <a href="#" class="checkout-btn checkout-cancel" style="background-color: #999999;"> Cancel </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+
+
+                            <div id="menu1" class="tab-pane fade">
+                                <table class="table add-list">
+                                    <tr class="added-item">
+                                        <td class="added-item-delete"> <button class="btn" data-toggle="tooltip" title="Delete Item"><i class="fa fa-close"></i></button> </td>
+                                        <td class="added-item-name">
+                                            <a href="#" data-toggle="modal" data-target="#myModal">Fresh Cut French Fries with Cheese</a> 
+                                        </td>
+                                        <td class="added-item-price"> $19.0 </td>
+                                    </tr>
+
+                                    
+                                    <tr>
+                                        <td colspan="2"> Sub Total </td>
+                                        <td> $0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"> Tax </td>
+                                        <td> $0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"> Service charge </td>
+                                        <td> $0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2"> Total </th>
+                                        <th> $0.00 </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" class="btn-area">
+                                            <a href="#" class="checkout-btn">Checkout <i class="fa fa-caret-right"></i> </a>
+                                            <a href="#" class="checkout-btn checkout-cancel" style="background-color: #999999;"> Cancel </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+
+
+                            <div id="menu2" class="tab-pane fade">
+                                <table class="table add-list">
+                                    <tr class="added-item">
+                                        <td class="added-item-delete"> <button class="btn" data-toggle="tooltip" title="Delete Item"><i class="fa fa-close"></i></button> </td>
+                                        <td class="added-item-name">
+                                            <a href="#" data-toggle="modal" data-target="#myModal">Fresh Cut French Fries with Cheese</a> 
+                                        </td>
+                                        <td class="added-item-price"> $19.0 </td>
+                                    </tr>
+
+                                    
+                                    <tr>
+                                        <td colspan="2"> Sub Total </td>
+                                        <td> $0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"> Tax </td>
+                                        <td> $0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2"> Total </th>
+                                        <th> $0.00 </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" class="btn-area">
+                                            <a href="#" class="checkout-btn">Checkout <i class="fa fa-caret-right"></i> </a>
+                                            <a href="#" class="checkout-btn checkout-cancel" style="background-color: #999999;"> Cancel </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+                
+                
+            <!-- Show this Cart Only For Mobile Device -->
+                <div class="m-cart">
+                    <span class="amount"> 3 </span>
+                    <img src="images/resources/add-to-the-cart.svg" class="img-responsive" alt="#">
+                </div>
+                <div class="area-clear"></div>
+            
+                
+                
+            </div>
+        
+        </div>
+        
+        
+    
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--Main Footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="footer-clean">
+                        <img src="images/resources/logo.png" alt="#" style="max-height: 45px;">
+                        <ul class="social-list">
+                            <li> <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+                            <li> <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                            <li> <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a> </li>
+                            <li> <a href="#"> <i class="fa fa-dribbble" aria-hidden="true"></i></a> </li>
+                        </ul>
+
+                        <ul class="footer-menu">
+                            <li> <a href="#">About Pizza House</a> </li>
+                            <li> <a href="store-location.html">Our Address</a> </li>
+                            <li> <a href="tel:+880 123-456789">Telephone: +880 123-456789</a> </li>
+                            <li> <a href="#">Email: pizzahouse@okc.com</a> </li>
+                        </ul>
+                        <p class="copyright">Copyright &copy; 2017 Pizza House. All rights reserved. <br/>Developed by: <a href="https://www.behance.net/mr-arif" target="_blank">Ariful Islam</a> </p>
+
+                        <a href="#" target="_blank" class="map-btn"> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Find Us On Map </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+<!-- external file adding -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"> </script>
+    <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"> </script>
+    <script type="text/javascript" src="js/essential-script.js"></script>
+
+</body>
+</html>

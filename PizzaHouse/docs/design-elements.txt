@@ -1,0 +1,17 @@
+primary-color : #D40031;
+secondary-color : #FFD500;
+footer-background : #0D202D;
+
+font-family: (google font)
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700" rel="stylesheet"> 
+	'Roboto', sans-serif;
+
+Typoghraphy:
+
+
+Image Sizes:
+	Slider image: Size=1440px / 580px, Aspect Ratio=72:29
+	Products image Size: 540px / 380px;
+
+
+ 

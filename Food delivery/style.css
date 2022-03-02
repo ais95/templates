@@ -1,0 +1,353 @@
+body{
+    background-color: #ffffff;
+    position: relative;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+header,section,footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    padding: 5% 0;
+    position: relative;
+}
+.form-control:focus,
+.btn:focus{
+    box-shadow: none;
+}
+.section-title{
+    font-weight: 400;
+    color: #333333;
+}
+.section-subtitle{
+    font-weight: 400;
+    color: #555555;
+}
+.section-title span{
+    font-weight: bolder;
+    color: #FDC429;
+}
+.section-article{
+    color: #555555;
+    text-align: justify;
+    word-break: break-all;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+/*...............................................*/
+
+
+
+
+
+
+
+/*main nav bar*/
+.main-nav{
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 3px 0;
+}
+.main-nav .brand-logo{
+    width: auto;
+    max-height: 64px;
+}
+
+
+
+/*sign in /signup button*/
+.main-nav .btn-nav{
+    width: 180px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.main-nav .btn-nav a{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #FDC429;
+    color: #333333;
+    letter-spacing: 1px;
+    transition: ease 0.1s;
+}
+.main-nav .btn-nav .btn-login{
+    left: 0;
+    right: 50%;
+    background-color: #FDC429;
+    color: #ffffff;
+    border-right: 0;
+} 
+.main-nav .btn-nav .btn-register{
+    left: 50%;
+    right: 0;
+    border-left: 0;
+}
+.main-nav .btn-nav a:hover{
+    background-color: #f2b222;
+    border-color: #f2b222;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*........index-header.......*/
+.index-header{
+    height: auto;
+    padding: 10% 0;
+    background-position: center right;
+    background-size: contain;
+    background-image: url(images/resources/index-bg.jpg);
+}
+.index-header .header-title-index{
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+.index-header .header-title-index span{
+    font-weight: 600;
+    color: #FDC429;
+}
+.index-header .location-search{
+    position: relative;
+    width: 580px;
+    height: 45px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.index-header .location-search span{
+    position: absolute;
+    font-size: 20px;
+    left: 15px;
+    top: 6px;
+    color: #555555;
+}
+.index-header .location-search .search-input{
+    width: 440px;
+    height: 100%;
+    float: left;
+    border: 1px solid #555555;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #555555;
+    letter-spacing: 1px;
+}
+.index-header .location-search .search-input:focus{
+    border-color: #FDC429;
+    outline: 0;
+}
+.index-header .location-search .search-btn{
+    width: 125px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #FDC429;
+}
+.index-header .location-search .search-btn:hover{
+    background-color: #f2b222
+}
+
+
+
+
+
+
+/*.......Section Double.........*/
+
+
+
+
+
+
+/*.......top-city-index.........*/
+.top-city-index .title-transform{
+    position: absolute;
+    font-size: 7vw;
+    left: 0;
+    top: 10%;
+    transform: rotate(0deg);
+    color: #FDC429;
+    opacity: 0.1;
+    transition: ease 1s;
+}
+.top-city-index:hover .title-transform{
+    top: 35%;
+    transform: rotate(-90deg);
+    transition: ease 0.5s;
+}
+.top-city-index .top-city-in-country{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.03);
+    border-radius: 5px;
+    transition: ease 0.3s;
+}
+.top-city-index .top-city-in-country img{
+    width: 100%;
+    filter: blur(0.5px) brightness(75%);
+    transition: ease 0.3s;
+}
+.top-city-index .top-city-in-country .city-name{
+    color: #FDC429;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+.top-city-index .top-city-in-country .restuarant-count{
+    font-size: 14px;
+    color: #555555;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.top-city-index .top-city-in-country:hover{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.top-city-index .top-city-in-country:hover img{
+    filter: blur(0px) brightness(100%);
+}
+
+.top-city-index .all-city-list{
+    padding: 10px;
+    border-top: 1px solid #FDC429;
+}
+.top-city-index .all-city-list li{
+    display: inline-block;
+    margin: 10px 15px 0 0;
+    padding: 0 5px;
+    position: relative;
+}
+
+.top-city-index .all-city-list li a{
+    color: #555555;
+}
+.top-city-index .all-city-list li a:hover{
+    color: #FDC429;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/*.........Order Process Cycle..........*/
+.order-process-index{
+    background-image: url(images/resources/city-bg.png);
+    background-size: 100%;
+    background-position: center bottom;
+    background-attachment: scroll;
+}
+.order-process-index .box-container{
+    box-shadow: 0 15px 25px rgba(0,0,0,0.03);
+    position: relative;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.order-process-index .box-container .bg-title span{
+    color: #ffffff;
+    background-color: #FDC429;
+    padding: 5px 25px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.order-process-index .svg-block{
+    fill: #FDC429;
+    border: 1px solid #FDC429;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.order-process-index .section-subtitle{
+    color: #FDC429;
+}
+
+
+
+
+
+
+
+/*......Footer........*/
+.main-footer{
+    padding: 72px 0;
+    background-color: #FDC429;
+}
+.main-footer .social-link{
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+.main-footer .social-link li{
+    display: inline-block;
+    margin: 5px;
+}
+.main-footer .social-link li a i{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 18px;
+}
+.main-footer .social-link li a:hover i{
+    background-color: #ffffff;
+    color: #FDC429;
+}
+.footer-list-inline li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+.footer-list-block li{
+    display: block;
+    margin: 5px;
+}
+.footer-list-block li a{
+    color: #333333;
+}
+.footer-list-block li a:hover{
+    color: #ffffff;
+}

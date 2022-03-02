@@ -1,0 +1,32 @@
+Color Pattern
+-----------------------------
+Primary-Color   : #71b716-589903;
+Secondary-Color : #333333;
+Theme-Color     : #FFFFFF;
+Overlay-Color   : #F9F9F9;
+
+
+
+Font
+-----------------------------
+Source :  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500|Signika:300,400,600" rel="stylesheet">
+Family : 'Quicksand', sans-serif;
+	 'Signika', sans-serif;
+
+Font Color: #999999, #71b716
+
+
+Layout
+------------------------------
+Column : 4-Column;
+Box-type: Container;
+
+Development tools
+------------------------------
+Sublime Text 3 
+Bootstrap 4.0(stable)
+jQuery 3.3.1(stable)
+jQuery UI
+Flaticon
+Font Awesome
+unsplash.com, pixabay.com For CC0 Media(images)

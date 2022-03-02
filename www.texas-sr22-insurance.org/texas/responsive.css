@@ -1,0 +1,139 @@
+/*.......................RESPONSIVE DESIGN ...............*/
+
+@media  screen and (max-width:720px){
+	#container{
+		width:90%;
+		margin:0 auto;
+	}
+	#container header{
+		height:auto;
+		overflow:hidden;
+	}
+	header .left-side, .middle-side, .right-side{
+		height:auto;
+		max-height:120px;
+		float:none;
+	}
+	header .left-side h4{
+		width:100%;
+		font-family:arial;
+		font-weight:lighter;
+		color:#CCFFFF;
+		text-align:center;
+		font-style:italic;
+		margin-top:10px;
+	}
+	header .middle-side ul{
+		margin:0;
+		width:30%;
+		float:left;
+		text-align:center;
+		padding:0;
+	}
+	header .middle-side ul li{
+		display:block;
+		padding:5px;
+	}
+	header .middle-side ul a{	
+		font-size:15px;
+	}
+	header .middle-side h2,h5{
+		width:65%;
+		height:auto;
+		margin-left:25%;
+		padding-bottom:15px;
+	}
+	header .middle-side .language{
+		left:50%;
+		top:100%;
+	}
+	header .middle-side span{
+		display:none;
+	}
+	header .right-side{
+		position:absolute;
+		top:5%;
+		right:0%;
+	}
+	header .right-side img{
+		height:auto;
+	}
+	
+	/*...........................header section i now end.........................*/
+	#overlay{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		padding:5px 0;
+	}
+	#overlay .leftarea{
+		width:100%;
+		height:auto;
+		max-height:220px;
+		margin:0;
+		float:none;
+	}
+	#overlay .leftarea img{
+		width:100%;
+		height:auto;
+		margin:2px;
+	}
+	#overlay .cls1, .cls2, .cls3{
+		float:none;
+		text-align:center;
+	}
+	#overlay .cls1{
+		float:left;
+		margin-left:0 auto;
+	}
+	#overlay .cls3{
+		float:none;
+		width:80%;
+		margin:0 auto;
+		text-align:center;
+	}
+	.instant-filings{
+			height:220px;
+	}
+	
+		/*........................... overlay section is now end.........................*/
+	#title1{
+		height:auto;
+	}
+	
+	
+	#left-content, #right-content{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		margin:0 auto;
+		float:none;
+	}
+	#left-content .plaintext{
+		width:80%;
+		text-align:justify;
+		margin:0 auto;
+		padding:0 10px;
+	}
+	.bottom-3{
+		height:auto;
+		padding:10px;
+	}
+
+	#right-content{
+		width:85%;
+		margin-top:20px;
+	}	
+}
+
+
+
+@media  screen and (max-width:640px){
+	body{
+		padding:0;
+	}
+	#container{
+		width:100%;
+		margin:0 auto;
+	}
+}
