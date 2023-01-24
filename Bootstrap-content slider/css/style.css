@@ -1,0 +1,65 @@
+body{
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+.carousel {
+    margin-bottom: 60px;
+    min-height: 260px;
+}
+
+.carousel .container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-control{
+    background-color: transparent;
+    border: 0;
+    font-size: 85px;
+    margin-top: 0;
+    color: #FF5B5C;
+    opacity: 1;
+}
+.carousel-control:hover{
+    color: #F73B56;
+}
+.carousel .item {
+    height: auto;
+}
+.carousel img {
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    filter: hue-rotate(10deg);
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    padding: 2% 0;
+    margin-bottom:15%;
+}
+.carousel-caption h1{
+    font-size: 40px;
+    padding: 15px 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption .carousel-btn{
+    border-radius: 0;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #FF5B5C;
+    color: #ffffff;
+    text-decoration: none;
+}
+.carousel-caption .carousel-btn:hover{
+    background-color: #F73B56;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
