@@ -1,0 +1,57 @@
+/*Custome checkbox design*/
+.radio-container,
+.check-container {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.radio-container input,
+.check-container input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.radio-container .checkmark,
+.check-container .checkmark {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  height: 17px;
+  width: 17px;
+  background-color: #cbcbcb;
+}
+.radio-container:hover input ~ .checkmark,
+.check-container:hover input ~ .checkmark {
+  background-color: #999999;
+}
+.radio-container input:checked ~ .checkmark,
+.check-container input:checked ~ .checkmark {
+  background-color: #1a98ff;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.radio-container input:checked ~ .checkmark:after,
+.check-container input:checked ~ .checkmark:after {
+  display: block;
+}
+.radio-container .checkmark:after,
+.check-container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

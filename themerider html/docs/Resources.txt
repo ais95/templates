@@ -1,0 +1,56 @@
+	
+	Color: 
+	--------------------
+	Primary   - #1A98FF & #F92C8B,
+	secondary - #1AD5FF & #04BFC4,
+
+
+
+	Typography:
+	--------------------
+	Font-family: 	'Lato', sans-serif;
+	Letter-spacing: 1px;
+	Title:		36px;
+	Subtitle:	20px;
+	Lead:		18px;
+	Paragraph:	14px;
+
+
+	Button:
+	--------------------
+	btn-lg:		18px;
+	btn-md:		16px;
+	btn-sm:		14px;
+	btn-fill:	bg-fill;
+	btn-line:	border;	
+
+
+
+	Icons:
+	--------------------
+	https://www.materialpalette.com/icons;
+	https://www.flaticon.com;
+	(N.B. SVG, PNG with attribution)
+
+
+
+
+	Images:
+	--------------------
+	https://unsplash.com;
+	https://www.freepik.com;
+
+	(N.B: All Images Is collected with CC0 license)
+
+	
+
+
+	About this template
+	--------------------
+	Category: 	Digital Products;
+	Type: 		Open Source & Premium;
+	Release:	v1.0 (01/05/2018);
+	Tools:		Bootstrap4.0, jQuery3.3.1, Font-Awesome 5.0,Google Font API,
+	Contributiona: 	...........
+
+	
